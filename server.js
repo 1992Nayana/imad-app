@@ -28,7 +28,7 @@ app.get('/test-db',function(req,res){
        } 
        else
        {
-           res.status(JSON,strinify(result.rows));
+           res.status(JSON,stringify(result.rows));
        }
     });
 });
