@@ -1,4 +1,4 @@
 console.log('Loaded!');
 
-var eID = document.getElementByID('elementID');
+var eID = document.getElementById('elementID');
 eID.innerHTML="New value";
