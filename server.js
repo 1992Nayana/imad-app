@@ -9,7 +9,7 @@ var config =
     database : 'nayusush',
     host: 'db.imad.hasura-app.io',
     port : '5432',
-    password : 'db-nayusush-45144'
+    password : process.env.DB_PASSWORD
 };
 
 var app = express();
