@@ -26,7 +26,7 @@ app.get('/test-db',function(req,res) {
            res.status(500).send(err.toString());
        } 
        else {
-           res.status(JSON,stringify(result.rows));
+           res.status(JSON,stringify(result));
        }
     });
 });
